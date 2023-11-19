@@ -29,7 +29,7 @@ img{
 }
 .book{
 	flex-direction:column;
-	display:flex;
+	display:block;
 	width:100%;
 }
 .price{
