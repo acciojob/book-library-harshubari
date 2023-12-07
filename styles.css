@@ -1,42 +1,14 @@
 body{
-	display:flex;
 	background-color: #f8f8f8;
-	align-items:center;
-	justify-content:center;
-}
-.im{
-	align-items:center;
-	justify-content:center;
-	display:flex;
 }
 .book-library{
-	padding:10px;
-	box-shadow:2px 2px 20px grey;
-	gap:20px;
-	width:50vw;
 	display:flex;
-	align-items:center;
-	justify-content:center;
 	flex-direction:column;
 }
 .author{
-	width:100%;
 	color: #777777;
 }
-img{
-	width:300px;
-	height:500px;
-}
-.book{
-	flex-direction:column;
-	display:flex;
-	width:100%;
-}
 .price{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:30px;
 	border-radius: 5px;
 	color: rgb(255, 255, 255);
 	background-color: #2ecc71;
