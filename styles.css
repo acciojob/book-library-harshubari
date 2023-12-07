@@ -1,62 +1,43 @@
-    body {
-            background-color: #f8f8f8;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .book-library {
-            background-color: #ffffff;
-            padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            
-            /* Test styles for the book-library block */
-            border: 2px solid #e74c3c;
-            border-radius: 10px;
-        }
-
-        .book {
-            width: 250px;
-            margin: 15px;
-            padding: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            text-align: center;
-            
-            /* Test styles for the book block */
-            background-color: #3498db;
-            color: #ffffff;
-            transition: background-color 0.3s ease;
-        }
-
-        .book:hover {
-            /* Additional styles when hovering over a book block */
-            background-color: #2980b9;
-        }
-
-        .book img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-
-        .book-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .author {
-            color: #777777;
-            margin-bottom: 5px;
-        }
-
-        .price-block {
-            background-color: #2ecc71;
-            color: #ffffff;
-            padding: 8px;
-            border-radius: 5px;
-        }
+body{
+	display:flex;
+	background-color: #f8f8f8;
+	align-items:center;
+	justify-content:center;
+}
+.im{
+	align-items:center;
+	justify-content:center;
+	display:flex;
+}
+.book-library{
+	padding:10px;
+	box-shadow:2px 2px 20px grey;
+	gap:20px;
+	width:50vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.author{
+	width:100%;
+	color: #777777;
+}
+img{
+	width:300px;
+	height:500px;
+}
+.book{
+	flex-direction:column;
+	display:flex;
+	width:100%;
+}
+.price{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:30px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	background-color: #2ecc71;
+}
